@@ -11,7 +11,7 @@ section{
 }
 .container{
     display:flex;
-    flex-wrap:warp;
+    flex-wrap:wrap;
     max-width: 100%;
     margin:0 auto;
     justify-content: center;
@@ -54,6 +54,12 @@ ul li a:hover{
 **ABOUT**
 =================== 
 */
+p{
+    font-size: 15px;
+}
+.tribute-info{
+    max-width: 1200px;
+}
 .resp-image{
     display:block;
     width: 100%;
@@ -61,7 +67,7 @@ ul li a:hover{
 #main{
     background-color: rgb(116, 146, 226);
 }
-#title{
+.title{
     padding-top:30px;
     text-transform: uppercase;
     text-align: center;
@@ -74,7 +80,6 @@ ul li a:hover{
     border-radius: 20px;
     border: 3px solid rgb(102, 56, 56);
     margin:70px auto;
-    width:430px;
 }
 #img-caption{
     display:flex; 
